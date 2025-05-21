@@ -1,0 +1,32 @@
+.edited-task {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.edited-task input {
+  width: min(420px, 100%);
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+
+.edited-task button {
+  background-color: #94b5d3;
+  color: #0f1c2a;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  width: 100px;
+  border-radius: 20px;
+}
+
+.edited-task button:hover {
+  background-color: #0f1c2a;
+  color: #94b5d3;
+}
